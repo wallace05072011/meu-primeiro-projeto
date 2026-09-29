@@ -1,0 +1,8 @@
+valor = 50 
+if(valor > 100):
+ desconto = 20
+elif(valor > 40):
+ desconto = 10
+else:
+    desconto = 0
+print("O desconto é de", desconto, "%") 

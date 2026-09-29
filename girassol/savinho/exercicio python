@@ -1,0 +1,9 @@
+nota = 7
+frequencia = 80
+
+if(nota >= 7) and (frequencia >= 75):
+    status = "aprovado"
+else:
+    status = "reprovado"
+
+print("O aluno está", status)

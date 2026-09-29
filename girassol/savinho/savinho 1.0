@@ -1,1 +1,15 @@
-              
+algoritimo "par_ou_impar"
+
+var 
+  numero: inteiro
+inicio
+
+  escreva("digite um numero inteiro: ")
+  leia(numero)
+
+se numero % 2 = 0 entao
+   escreva("o numero e PAR")
+senao
+   escreva("o numero e IMPAR.")
+finse
+ fimalgoritmo
